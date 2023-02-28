@@ -9,7 +9,7 @@ const Projects = () => {
             <h1>Personal Projects</h1>
             <div className="projectList">
                 {projectList.map((project, index) => {
-                    return <li key={index}><ProjectItem id={index} name={project.name} image={project.image} /></li>
+                    return <ProjectItem id={index} name={project.name} image={project.image} />
                 })}
             </div>
         </div>
