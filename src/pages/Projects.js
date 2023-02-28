@@ -1,7 +1,5 @@
 import React from "react";
 import ProjectItem from "../components/ProjectItem";
-import WeLoveMovies from "../images/WeLoveMovies.png";
-import RestaurantReservation from "../images/RestaurantReservationApp.png" 
 import "../styles/Projects.css";
 import { projectList } from "../helpers/ProjectList";
 

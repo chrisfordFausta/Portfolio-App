@@ -11,9 +11,26 @@ const Home = () => {
                 <h2>Chrisford Fausta</h2>
                 <div className="prompt">
                     <p>A software engineer who is passionate about exploring new technologies and creating innovative solutions.</p>
-                    <LinkedInIcon />
-                    <EmailIcon />
-                    <GitHubIcon />
+                    <a 
+                    href="https://www.linkedin.com/in/chrisford-fausta-1b196423b/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                        <LinkedInIcon />
+                    </a>
+                    <a 
+                    href="mailto:chrisford.fausta@outlook.com"
+                    target="_blank"
+                    rel="noreferrer">
+                        <EmailIcon />
+                    </a>
+                    <a 
+                    href="https://github.com/chrisfordFausta"
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                        <GitHubIcon />
+                    </a>
                 </div>
             </div>
             <div className="skills">

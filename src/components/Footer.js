@@ -9,8 +9,20 @@ const Footer = () => {
         <div className="footer">
             <div className="socialMedia">
                 <TwitterIcon />
-                <LinkedInIcon />
-                <GitHubIcon />
+                <a 
+                    href="https://www.linkedin.com/in/chrisford-fausta-1b196423b/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                        <LinkedInIcon />
+                    </a>
+                    <a 
+                    href="https://github.com/chrisfordFausta"
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                        <GitHubIcon />
+                    </a>
             </div>
             <p> &copy; 2023 chrisfordfausta.com </p>
         </div>
